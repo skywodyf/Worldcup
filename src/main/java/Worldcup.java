@@ -19,7 +19,7 @@ public class Worldcup {
         }
         if (2030 < year) {
             throw new IllegalArgumentException(
-                    "2030년까지만 지원합니다. 입력년도: " + year);
+                    "2040년까지만 지원합니다. 입력년도: " + year);
         }
         return year % 4 == 0;
     }
